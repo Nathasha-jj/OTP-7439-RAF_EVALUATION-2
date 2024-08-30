@@ -2,6 +2,24 @@
  * @NApiVersion 2.1
  * @NScriptType Suitelet
  */
+/*
+ * Jobin and Jismi IT Services LLP
+ *
+ * ${OTP-7439} : ${RAF Evaluation}
+ *
+ *
+ * Author: Jobin & Jismi IT Services LLP
+ *
+ * Date Created : 30-August-2024
+ *
+ * Description :This script is used to close the sales orders created
+ * on or before thirty days and are in pending fulfillment status,
+ * and to generate and send CSV file for recording the details of these sales orders.
+ *
+ * REVISION HISTORY
+ *
+ * @version 1.0 OTP-7439 : 30-August-2024
+ */
 define(['N/http', 'N/ui/serverWidget', 'N/url','N/file'],
     /**
  * @param{http} http
